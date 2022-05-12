@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "barrier-tennis-right.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

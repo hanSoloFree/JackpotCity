@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63707EF1281AECD900455FB0 /* Barrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63707EF0281AECD900455FB0 /* Barrier.swift */; };
+		6373D0C42817FDBC00C24F00 /* flipper-baseball.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6373D0C32817FDBC00C24F00 /* flipper-baseball.wav */; };
+		6373D0C62817FEC600C24F00 /* flipper-tannis.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6373D0C52817FEC600C24F00 /* flipper-tannis.wav */; };
+		6373D0C82817FF0100C24F00 /* bamper-baseball.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6373D0C72817FF0100C24F00 /* bamper-baseball.wav */; };
+		6373D0CA28180B1400C24F00 /* extra-life.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6373D0C928180B1400C24F00 /* extra-life.wav */; };
+		6373D0CC28180C1600C24F00 /* bamper-tannis.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6373D0CB28180C1600C24F00 /* bamper-tannis.wav */; };
+		6373D0CE28180CCB00C24F00 /* bamper-golf.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6373D0CD28180CCB00C24F00 /* bamper-golf.wav */; };
+		6373D0D02818671000C24F00 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6373D0CF2818671000C24F00 /* Application.swift */; };
+		6373D0D2281AC75E00C24F00 /* Lights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6373D0D1281AC75D00C24F00 /* Lights.swift */; };
+		637F45FF280D99F000AACBE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637F45FE280D99F000AACBE4 /* AppDelegate.swift */; };
+		637F4601280D99F000AACBE4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 637F4600280D99F000AACBE4 /* GameScene.sks */; };
+		637F4603280D99F000AACBE4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 637F4602280D99F000AACBE4 /* Actions.sks */; };
+		637F4605280D99F000AACBE4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637F4604280D99F000AACBE4 /* GameScene.swift */; };
+		637F4607280D99F000AACBE4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637F4606280D99F000AACBE4 /* GameViewController.swift */; };
+		637F460A280D99F000AACBE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637F4608280D99F000AACBE4 /* Main.storyboard */; };
+		637F460C280D99F100AACBE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637F460B280D99F100AACBE4 /* Assets.xcassets */; };
+		637F460F280D99F100AACBE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637F460D280D99F100AACBE4 /* LaunchScreen.storyboard */; };
+		637F461A280DD0F400AACBE4 /* GameSceneTouches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637F4619280DD0F400AACBE4 /* GameSceneTouches.swift */; };
+		637F461D280DDE7200AACBE4 /* Flipper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637F461C280DDE7200AACBE4 /* Flipper.swift */; };
+		637F461F280EC58E00AACBE4 /* GameScenePhysics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637F461E280EC58E00AACBE4 /* GameScenePhysics.swift */; };
+		637F4621280EC8DE00AACBE4 /* FlipperStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637F4620280EC8DE00AACBE4 /* FlipperStop.swift */; };
+		637F4623280EED3500AACBE4 /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637F4622280EED3500AACBE4 /* Ball.swift */; };
+		637F4625280F374000AACBE4 /* Bamper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637F4624280F374000AACBE4 /* Bamper.swift */; };
+		637F462A28103A6D00AACBE4 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637F462928103A6D00AACBE4 /* AudioPlayer.swift */; };
+		637F462D28103B4300AACBE4 /* game.wav in Resources */ = {isa = PBXBuildFile; fileRef = 637F462C28103B4300AACBE4 /* game.wav */; };
+		637F463128103E3900AACBE4 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637F463028103E3900AACBE4 /* SoundPlayer.swift */; };
+		637F463528106B7A00AACBE4 /* flipper-golf.wav in Resources */ = {isa = PBXBuildFile; fileRef = 637F463428106B7A00AACBE4 /* flipper-golf.wav */; };
+		637F4637281071D600AACBE4 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637F4636281071D600AACBE4 /* ThemeManager.swift */; };
+		637F463D28115F9A00AACBE4 /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 637F463C28115F9A00AACBE4 /* MenuScene.sks */; };
+		637F463F28115FF400AACBE4 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637F463E28115FF400AACBE4 /* MenuScene.swift */; };
+		637F46412811984A00AACBE4 /* game-over.wav in Resources */ = {isa = PBXBuildFile; fileRef = 637F46402811984A00AACBE4 /* game-over.wav */; };
+		637F464328119B9A00AACBE4 /* flipper-classic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 637F464228119B9A00AACBE4 /* flipper-classic.wav */; };
+		637F464928119C8700AACBE4 /* bamper-classic1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 637F464828119C8700AACBE4 /* bamper-classic1.wav */; };
+		637F464B28119F4800AACBE4 /* spawn-ball-classic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 637F464A28119F4800AACBE4 /* spawn-ball-classic.wav */; };
+		637F464D2811B35100AACBE4 /* contact.wav in Resources */ = {isa = PBXBuildFile; fileRef = 637F464C2811B35100AACBE4 /* contact.wav */; };
+		637F464F2811B8F700AACBE4 /* bamper-classic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 637F464E2811B8F700AACBE4 /* bamper-classic.wav */; };
+		637F46542812E61200AACBE4 /* SnappingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637F46532812E61200AACBE4 /* SnappingLayout.swift */; };
+		637F46562812E72F00AACBE4 /* ThemeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637F46552812E72F00AACBE4 /* ThemeCollectionViewCell.swift */; };
+		637F46582812E7A200AACBE4 /* ThemeCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637F46572812E7A200AACBE4 /* ThemeCollectionView.swift */; };
+		63B67446281C04F900F9C65B /* BaseballGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B67445281C04F900F9C65B /* BaseballGameScene.swift */; };
+		63B67448281C051C00F9C65B /* BaseballGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 63B67447281C051C00F9C65B /* BaseballGameScene.sks */; };
+		63B6744B281C056100F9C65B /* TennisGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B6744A281C056100F9C65B /* TennisGameScene.swift */; };
+		63B6744D281C056F00F9C65B /* TennisGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 63B6744C281C056F00F9C65B /* TennisGameScene.sks */; };
+		63B67450281C06B100F9C65B /* PinballGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B6744F281C06B100F9C65B /* PinballGameScene.swift */; };
+		63B67452281C06CA00F9C65B /* PinballGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 63B67451281C06CA00F9C65B /* PinballGameScene.sks */; };
+		63B67453281C0CED00F9C65B /* GolfGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B6743E281C03D500F9C65B /* GolfGameScene.swift */; };
+		63B67454281C0DF100F9C65B /* GolfGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 63B6743F281C03D500F9C65B /* GolfGameScene.sks */; };
+		63B67456281C606600F9C65B /* game-golf.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63B67455281C606600F9C65B /* game-golf.wav */; };
+		63B67458281C60A100F9C65B /* game-tennis.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63B67457281C60A100F9C65B /* game-tennis.wav */; };
+		63B6745A281C617600F9C65B /* baseball-game-over.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63B67459281C617600F9C65B /* baseball-game-over.wav */; };
+		63B6745C281C62DD00F9C65B /* game-over-golf.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63B6745B281C62DD00F9C65B /* game-over-golf.wav */; };
+		63B6745E281C715100F9C65B /* tennis-game-over.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63B6745D281C715100F9C65B /* tennis-game-over.wav */; };
+		63B67460281C722100F9C65B /* game-baseball.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63B6745F281C722100F9C65B /* game-baseball.wav */; };
+		B8B7A9629205FA142FB5EB4D /* Pods_JackpotCity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04627D1510C698BBBD8D1057 /* Pods_JackpotCity.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04627D1510C698BBBD8D1057 /* Pods_JackpotCity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JackpotCity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63707EF0281AECD900455FB0 /* Barrier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Barrier.swift; sourceTree = "<group>"; };
+		6373D0C32817FDBC00C24F00 /* flipper-baseball.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "flipper-baseball.wav"; sourceTree = "<group>"; };
+		6373D0C52817FEC600C24F00 /* flipper-tannis.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "flipper-tannis.wav"; sourceTree = "<group>"; };
+		6373D0C72817FF0100C24F00 /* bamper-baseball.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "bamper-baseball.wav"; sourceTree = "<group>"; };
+		6373D0C928180B1400C24F00 /* extra-life.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "extra-life.wav"; sourceTree = "<group>"; };
+		6373D0CB28180C1600C24F00 /* bamper-tannis.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "bamper-tannis.wav"; sourceTree = "<group>"; };
+		6373D0CD28180CCB00C24F00 /* bamper-golf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "bamper-golf.wav"; sourceTree = "<group>"; };
+		6373D0CF2818671000C24F00 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		6373D0D1281AC75D00C24F00 /* Lights.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lights.swift; sourceTree = "<group>"; };
+		637F45FB280D99F000AACBE4 /* JackpotCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JackpotCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		637F45FE280D99F000AACBE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		637F4600280D99F000AACBE4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		637F4602280D99F000AACBE4 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		637F4604280D99F000AACBE4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		637F4606280D99F000AACBE4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		637F4609280D99F000AACBE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		637F460B280D99F100AACBE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		637F460E280D99F100AACBE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		637F4619280DD0F400AACBE4 /* GameSceneTouches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSceneTouches.swift; sourceTree = "<group>"; };
+		637F461C280DDE7200AACBE4 /* Flipper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flipper.swift; sourceTree = "<group>"; };
+		637F461E280EC58E00AACBE4 /* GameScenePhysics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScenePhysics.swift; sourceTree = "<group>"; };
+		637F4620280EC8DE00AACBE4 /* FlipperStop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipperStop.swift; sourceTree = "<group>"; };
+		637F4622280EED3500AACBE4 /* Ball.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
+		637F4624280F374000AACBE4 /* Bamper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bamper.swift; sourceTree = "<group>"; };
+		637F462928103A6D00AACBE4 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		637F462C28103B4300AACBE4 /* game.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = game.wav; sourceTree = "<group>"; };
+		637F463028103E3900AACBE4 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		637F463428106B7A00AACBE4 /* flipper-golf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "flipper-golf.wav"; sourceTree = "<group>"; };
+		637F4636281071D600AACBE4 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		637F463C28115F9A00AACBE4 /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
+		637F463E28115FF400AACBE4 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		637F46402811984A00AACBE4 /* game-over.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "game-over.wav"; sourceTree = "<group>"; };
+		637F464228119B9A00AACBE4 /* flipper-classic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "flipper-classic.wav"; sourceTree = "<group>"; };
+		637F464828119C8700AACBE4 /* bamper-classic1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "bamper-classic1.wav"; sourceTree = "<group>"; };
+		637F464A28119F4800AACBE4 /* spawn-ball-classic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "spawn-ball-classic.wav"; sourceTree = "<group>"; };
+		637F464C2811B35100AACBE4 /* contact.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = contact.wav; sourceTree = "<group>"; };
+		637F464E2811B8F700AACBE4 /* bamper-classic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "bamper-classic.wav"; sourceTree = "<group>"; };
+		637F46532812E61200AACBE4 /* SnappingLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnappingLayout.swift; sourceTree = "<group>"; };
+		637F46552812E72F00AACBE4 /* ThemeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeCollectionViewCell.swift; sourceTree = "<group>"; };
+		637F46572812E7A200AACBE4 /* ThemeCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeCollectionView.swift; sourceTree = "<group>"; };
+		63B6743E281C03D500F9C65B /* GolfGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfGameScene.swift; sourceTree = "<group>"; };
+		63B6743F281C03D500F9C65B /* GolfGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GolfGameScene.sks; sourceTree = "<group>"; };
+		63B67445281C04F900F9C65B /* BaseballGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseballGameScene.swift; sourceTree = "<group>"; };
+		63B67447281C051C00F9C65B /* BaseballGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BaseballGameScene.sks; sourceTree = "<group>"; };
+		63B6744A281C056100F9C65B /* TennisGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TennisGameScene.swift; sourceTree = "<group>"; };
+		63B6744C281C056F00F9C65B /* TennisGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TennisGameScene.sks; sourceTree = "<group>"; };
+		63B6744F281C06B100F9C65B /* PinballGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinballGameScene.swift; sourceTree = "<group>"; };
+		63B67451281C06CA00F9C65B /* PinballGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PinballGameScene.sks; sourceTree = "<group>"; };
+		63B67455281C606600F9C65B /* game-golf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "game-golf.wav"; sourceTree = "<group>"; };
+		63B67457281C60A100F9C65B /* game-tennis.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "game-tennis.wav"; sourceTree = "<group>"; };
+		63B67459281C617600F9C65B /* baseball-game-over.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "baseball-game-over.wav"; sourceTree = "<group>"; };
+		63B6745B281C62DD00F9C65B /* game-over-golf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "game-over-golf.wav"; sourceTree = "<group>"; };
+		63B6745D281C715100F9C65B /* tennis-game-over.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "tennis-game-over.wav"; sourceTree = "<group>"; };
+		63B6745F281C722100F9C65B /* game-baseball.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "game-baseball.wav"; sourceTree = "<group>"; };
+		73CEB02B34627AE2AA19C3D5 /* Pods-JackpotCity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JackpotCity.debug.xcconfig"; path = "Target Support Files/Pods-JackpotCity/Pods-JackpotCity.debug.xcconfig"; sourceTree = "<group>"; };
+		A76E5C8F5FC004DA99E48C7B /* Pods-JackpotCity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JackpotCity.release.xcconfig"; path = "Target Support Files/Pods-JackpotCity/Pods-JackpotCity.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		637F45F8280D99F000AACBE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B7A9629205FA142FB5EB4D /* Pods_JackpotCity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B4510A09AFE7B8FE6C21F0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04627D1510C698BBBD8D1057 /* Pods_JackpotCity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CC92E2D5185765EEB9F2A74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73CEB02B34627AE2AA19C3D5 /* Pods-JackpotCity.debug.xcconfig */,
+				A76E5C8F5FC004DA99E48C7B /* Pods-JackpotCity.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		637F45F2280D99EF00AACBE4 = {
+			isa = PBXGroup;
+			children = (
+				637F45FD280D99F000AACBE4 /* JackpotCity */,
+				637F45FC280D99F000AACBE4 /* Products */,
+				4CC92E2D5185765EEB9F2A74 /* Pods */,
+				4B4510A09AFE7B8FE6C21F0F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		637F45FC280D99F000AACBE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				637F45FB280D99F000AACBE4 /* JackpotCity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		637F45FD280D99F000AACBE4 /* JackpotCity */ = {
+			isa = PBXGroup;
+			children = (
+				637F45FE280D99F000AACBE4 /* AppDelegate.swift */,
+				637F4602280D99F000AACBE4 /* Actions.sks */,
+				637F462B28103B0900AACBE4 /* Sound */,
+				637F462828103A5900AACBE4 /* Globals */,
+				637F461B280DDE5C00AACBE4 /* Nodes */,
+				637F4618280DD0B500AACBE4 /* Extensions */,
+				637F4616280DD07B00AACBE4 /* Scenes */,
+				637F4615280DD06800AACBE4 /* Controllers */,
+				637F463828115C5900AACBE4 /* Storyboards */,
+				637F460B280D99F100AACBE4 /* Assets.xcassets */,
+				637F460D280D99F100AACBE4 /* LaunchScreen.storyboard */,
+			);
+			path = JackpotCity;
+			sourceTree = "<group>";
+		};
+		637F4615280DD06800AACBE4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				637F46502812E5C800AACBE4 /* CollectionView */,
+				637F4606280D99F000AACBE4 /* GameViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		637F4616280DD07B00AACBE4 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				637F463B28115F6B00AACBE4 /* MenuScene */,
+				637F463A28115F5A00AACBE4 /* GameScene */,
+				63B6744E281C069500F9C65B /* PinballGameScene */,
+				63B67440281C043E00F9C65B /* GolfGameScene */,
+				63B6743D281C03A200F9C65B /* BaseballGameScene */,
+				63B67449281C053C00F9C65B /* TennisGameScene */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		637F4618280DD0B500AACBE4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				637F4619280DD0F400AACBE4 /* GameSceneTouches.swift */,
+				637F461E280EC58E00AACBE4 /* GameScenePhysics.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		637F461B280DDE5C00AACBE4 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				637F461C280DDE7200AACBE4 /* Flipper.swift */,
+				637F4620280EC8DE00AACBE4 /* FlipperStop.swift */,
+				637F4624280F374000AACBE4 /* Bamper.swift */,
+				63707EF0281AECD900455FB0 /* Barrier.swift */,
+				6373D0D1281AC75D00C24F00 /* Lights.swift */,
+				637F4622280EED3500AACBE4 /* Ball.swift */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		637F462828103A5900AACBE4 /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				637F462928103A6D00AACBE4 /* AudioPlayer.swift */,
+				637F463028103E3900AACBE4 /* SoundPlayer.swift */,
+				637F4636281071D600AACBE4 /* ThemeManager.swift */,
+				6373D0CF2818671000C24F00 /* Application.swift */,
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
+		637F462B28103B0900AACBE4 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				637F464C2811B35100AACBE4 /* contact.wav */,
+				637F46402811984A00AACBE4 /* game-over.wav */,
+				6373D0C928180B1400C24F00 /* extra-life.wav */,
+				637F464428119BB500AACBE4 /* Classic */,
+				637F464528119BBD00AACBE4 /* Golf */,
+				637F464728119BCD00AACBE4 /* Baseball */,
+				637F464628119BC500AACBE4 /* Tannis */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		637F463828115C5900AACBE4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				637F4608280D99F000AACBE4 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		637F463A28115F5A00AACBE4 /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				637F4600280D99F000AACBE4 /* GameScene.sks */,
+				637F4604280D99F000AACBE4 /* GameScene.swift */,
+			);
+			path = GameScene;
+			sourceTree = "<group>";
+		};
+		637F463B28115F6B00AACBE4 /* MenuScene */ = {
+			isa = PBXGroup;
+			children = (
+				637F463C28115F9A00AACBE4 /* MenuScene.sks */,
+				637F463E28115FF400AACBE4 /* MenuScene.swift */,
+			);
+			path = MenuScene;
+			sourceTree = "<group>";
+		};
+		637F464428119BB500AACBE4 /* Classic */ = {
+			isa = PBXGroup;
+			children = (
+				637F462C28103B4300AACBE4 /* game.wav */,
+				637F464228119B9A00AACBE4 /* flipper-classic.wav */,
+				637F464E2811B8F700AACBE4 /* bamper-classic.wav */,
+				637F464828119C8700AACBE4 /* bamper-classic1.wav */,
+				637F464A28119F4800AACBE4 /* spawn-ball-classic.wav */,
+			);
+			path = Classic;
+			sourceTree = "<group>";
+		};
+		637F464528119BBD00AACBE4 /* Golf */ = {
+			isa = PBXGroup;
+			children = (
+				63B67455281C606600F9C65B /* game-golf.wav */,
+				63B6745B281C62DD00F9C65B /* game-over-golf.wav */,
+				6373D0CD28180CCB00C24F00 /* bamper-golf.wav */,
+				637F463428106B7A00AACBE4 /* flipper-golf.wav */,
+			);
+			path = Golf;
+			sourceTree = "<group>";
+		};
+		637F464628119BC500AACBE4 /* Tannis */ = {
+			isa = PBXGroup;
+			children = (
+				63B6745D281C715100F9C65B /* tennis-game-over.wav */,
+				63B67457281C60A100F9C65B /* game-tennis.wav */,
+				6373D0CB28180C1600C24F00 /* bamper-tannis.wav */,
+				6373D0C52817FEC600C24F00 /* flipper-tannis.wav */,
+			);
+			path = Tannis;
+			sourceTree = "<group>";
+		};
+		637F464728119BCD00AACBE4 /* Baseball */ = {
+			isa = PBXGroup;
+			children = (
+				6373D0C32817FDBC00C24F00 /* flipper-baseball.wav */,
+				63B67459281C617600F9C65B /* baseball-game-over.wav */,
+				63B6745F281C722100F9C65B /* game-baseball.wav */,
+				6373D0C72817FF0100C24F00 /* bamper-baseball.wav */,
+			);
+			path = Baseball;
+			sourceTree = "<group>";
+		};
+		637F46502812E5C800AACBE4 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				637F46532812E61200AACBE4 /* SnappingLayout.swift */,
+				637F46552812E72F00AACBE4 /* ThemeCollectionViewCell.swift */,
+				637F46572812E7A200AACBE4 /* ThemeCollectionView.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		63B6743D281C03A200F9C65B /* BaseballGameScene */ = {
+			isa = PBXGroup;
+			children = (
+				63B67447281C051C00F9C65B /* BaseballGameScene.sks */,
+				63B67445281C04F900F9C65B /* BaseballGameScene.swift */,
+			);
+			path = BaseballGameScene;
+			sourceTree = "<group>";
+		};
+		63B67440281C043E00F9C65B /* GolfGameScene */ = {
+			isa = PBXGroup;
+			children = (
+				63B6743F281C03D500F9C65B /* GolfGameScene.sks */,
+				63B6743E281C03D500F9C65B /* GolfGameScene.swift */,
+			);
+			path = GolfGameScene;
+			sourceTree = "<group>";
+		};
+		63B67449281C053C00F9C65B /* TennisGameScene */ = {
+			isa = PBXGroup;
+			children = (
+				63B6744C281C056F00F9C65B /* TennisGameScene.sks */,
+				63B6744A281C056100F9C65B /* TennisGameScene.swift */,
+			);
+			path = TennisGameScene;
+			sourceTree = "<group>";
+		};
+		63B6744E281C069500F9C65B /* PinballGameScene */ = {
+			isa = PBXGroup;
+			children = (
+				63B67451281C06CA00F9C65B /* PinballGameScene.sks */,
+				63B6744F281C06B100F9C65B /* PinballGameScene.swift */,
+			);
+			path = PinballGameScene;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		637F45FA280D99F000AACBE4 /* JackpotCity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637F4612280D99F100AACBE4 /* Build configuration list for PBXNativeTarget "JackpotCity" */;
+			buildPhases = (
+				8910A6E4ADB2E706ECB90C40 /* [CP] Check Pods Manifest.lock */,
+				637F45F7280D99F000AACBE4 /* Sources */,
+				637F45F8280D99F000AACBE4 /* Frameworks */,
+				637F45F9280D99F000AACBE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JackpotCity;
+			productName = Pinball;
+			productReference = 637F45FB280D99F000AACBE4 /* JackpotCity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		637F45F3280D99EF00AACBE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					637F45FA280D99F000AACBE4 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 637F45F6280D99EF00AACBE4 /* Build configuration list for PBXProject "JackpotCity" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 637F45F2280D99EF00AACBE4;
+			productRefGroup = 637F45FC280D99F000AACBE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				637F45FA280D99F000AACBE4 /* JackpotCity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		637F45F9280D99F000AACBE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B67454281C0DF100F9C65B /* GolfGameScene.sks in Resources */,
+				637F460A280D99F000AACBE4 /* Main.storyboard in Resources */,
+				63B6744D281C056F00F9C65B /* TennisGameScene.sks in Resources */,
+				637F464D2811B35100AACBE4 /* contact.wav in Resources */,
+				6373D0CC28180C1600C24F00 /* bamper-tannis.wav in Resources */,
+				637F462D28103B4300AACBE4 /* game.wav in Resources */,
+				63B6745E281C715100F9C65B /* tennis-game-over.wav in Resources */,
+				63B67448281C051C00F9C65B /* BaseballGameScene.sks in Resources */,
+				63B67456281C606600F9C65B /* game-golf.wav in Resources */,
+				637F46412811984A00AACBE4 /* game-over.wav in Resources */,
+				63B67460281C722100F9C65B /* game-baseball.wav in Resources */,
+				637F4601280D99F000AACBE4 /* GameScene.sks in Resources */,
+				637F460C280D99F100AACBE4 /* Assets.xcassets in Resources */,
+				637F463528106B7A00AACBE4 /* flipper-golf.wav in Resources */,
+				63B67458281C60A100F9C65B /* game-tennis.wav in Resources */,
+				63B67452281C06CA00F9C65B /* PinballGameScene.sks in Resources */,
+				6373D0C42817FDBC00C24F00 /* flipper-baseball.wav in Resources */,
+				63B6745A281C617600F9C65B /* baseball-game-over.wav in Resources */,
+				637F464F2811B8F700AACBE4 /* bamper-classic.wav in Resources */,
+				6373D0C62817FEC600C24F00 /* flipper-tannis.wav in Resources */,
+				6373D0CE28180CCB00C24F00 /* bamper-golf.wav in Resources */,
+				637F464328119B9A00AACBE4 /* flipper-classic.wav in Resources */,
+				637F464B28119F4800AACBE4 /* spawn-ball-classic.wav in Resources */,
+				637F460F280D99F100AACBE4 /* LaunchScreen.storyboard in Resources */,
+				637F464928119C8700AACBE4 /* bamper-classic1.wav in Resources */,
+				6373D0CA28180B1400C24F00 /* extra-life.wav in Resources */,
+				637F4603280D99F000AACBE4 /* Actions.sks in Resources */,
+				6373D0C82817FF0100C24F00 /* bamper-baseball.wav in Resources */,
+				63B6745C281C62DD00F9C65B /* game-over-golf.wav in Resources */,
+				637F463D28115F9A00AACBE4 /* MenuScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8910A6E4ADB2E706ECB90C40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JackpotCity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		637F45F7280D99F000AACBE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6373D0D02818671000C24F00 /* Application.swift in Sources */,
+				637F46582812E7A200AACBE4 /* ThemeCollectionView.swift in Sources */,
+				637F4623280EED3500AACBE4 /* Ball.swift in Sources */,
+				63B67453281C0CED00F9C65B /* GolfGameScene.swift in Sources */,
+				637F461A280DD0F400AACBE4 /* GameSceneTouches.swift in Sources */,
+				637F462A28103A6D00AACBE4 /* AudioPlayer.swift in Sources */,
+				637F463F28115FF400AACBE4 /* MenuScene.swift in Sources */,
+				637F4605280D99F000AACBE4 /* GameScene.swift in Sources */,
+				637F463128103E3900AACBE4 /* SoundPlayer.swift in Sources */,
+				6373D0D2281AC75E00C24F00 /* Lights.swift in Sources */,
+				637F4637281071D600AACBE4 /* ThemeManager.swift in Sources */,
+				63707EF1281AECD900455FB0 /* Barrier.swift in Sources */,
+				637F461F280EC58E00AACBE4 /* GameScenePhysics.swift in Sources */,
+				63B6744B281C056100F9C65B /* TennisGameScene.swift in Sources */,
+				63B67446281C04F900F9C65B /* BaseballGameScene.swift in Sources */,
+				637F4607280D99F000AACBE4 /* GameViewController.swift in Sources */,
+				637F46562812E72F00AACBE4 /* ThemeCollectionViewCell.swift in Sources */,
+				637F46542812E61200AACBE4 /* SnappingLayout.swift in Sources */,
+				637F461D280DDE7200AACBE4 /* Flipper.swift in Sources */,
+				637F45FF280D99F000AACBE4 /* AppDelegate.swift in Sources */,
+				63B67450281C06B100F9C65B /* PinballGameScene.swift in Sources */,
+				637F4621280EC8DE00AACBE4 /* FlipperStop.swift in Sources */,
+				637F4625280F374000AACBE4 /* Bamper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		637F4608280D99F000AACBE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				637F4609280D99F000AACBE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		637F460D280D99F100AACBE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				637F460E280D99F100AACBE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		637F4610280D99F100AACBE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		637F4611280D99F100AACBE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		637F4613280D99F100AACBE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73CEB02B34627AE2AA19C3D5 /* Pods-JackpotCity.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: EXFOOD LTD (Q6QZA3JU46)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6QZA3JU46;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nechyporenko.n.JackpotCity;
+				PRODUCT_NAME = JackpotCity;
+				PROVISIONING_PROFILE_SPECIFIER = JPCityProvProfile;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		637F4614280D99F100AACBE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A76E5C8F5FC004DA99E48C7B /* Pods-JackpotCity.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: EXFOOD LTD (Q6QZA3JU46)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6QZA3JU46;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nechyporenko.n.JackpotCity;
+				PRODUCT_NAME = JackpotCity;
+				PROVISIONING_PROFILE_SPECIFIER = JPCityProvProfile;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		637F45F6280D99EF00AACBE4 /* Build configuration list for PBXProject "JackpotCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637F4610280D99F100AACBE4 /* Debug */,
+				637F4611280D99F100AACBE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637F4612280D99F100AACBE4 /* Build configuration list for PBXNativeTarget "JackpotCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637F4613280D99F100AACBE4 /* Debug */,
+				637F4614280D99F100AACBE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 637F45F3280D99EF00AACBE4 /* Project object */;
+}

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "classic-top-barrier-right.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
